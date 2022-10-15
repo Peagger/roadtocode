@@ -4,6 +4,10 @@ python等语言的包管理软件
 
 ## 基本使用
 
+- 初始化,相当于配置环境变量`conda init`
+
+- 禁止自动激活base环境`conda config --set auto_activate_base false`
+
 #### 环境的创建与激活
 
 - 创建新的虚拟环境`conda create -n [环境名称] python=[版本号]`
